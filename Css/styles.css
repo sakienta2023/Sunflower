@@ -6,15 +6,15 @@
 
 body {
     font-family: Arial, sans-serif;
-   /* background-color: #C8D166;*/
+/* background-color: #C8D166;*/
     background-color: #366F23;
     color: #333;     
 background:linear-gradient(rgba(0,0,0,0.5),#61942F),url("../Images/istockphoto-629689474-612x612.jpg") no-repeat center center/cover;
 }
- 
+
 
 header {
-      background:linear-gradient(rgba(0,0,0,0.5),#61942F),url("") no-repeat center center/cover;
+    background:linear-gradient(rgba(0,0,0,0.5),#61942F),url("") no-repeat center center/cover;
     padding: 10px 0;
     text-align: center; 
 }
@@ -42,7 +42,7 @@ header {
     border-radius: 62px;
     border: none;
     /*background-color: #8D8C92;*/
-   /* opacity: 0.4;*/
+/* opacity: 0.4;*/
 }
 
 
@@ -138,6 +138,7 @@ nav ul li a {
 
 .service-item {
     flex-basis: 30%;
+    /* width: 50%; */
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
@@ -197,7 +198,7 @@ nav ul li a {
 
 .services {
     width: 30%;
-    padding 1.1rem;
+    padding: 1.1rem;
     justify-content: center;
     align-items: center;
 }
@@ -451,7 +452,7 @@ footer {
     color: white;
     font-weight: bold;
     margin-top: 1rem;
- }
+}
     
 nav {
     align-self: center;  
@@ -501,12 +502,12 @@ nav {
 }
 
 .logo .img-text {
- color: white;
- font-size: 15px;
- font-weight: bold;
- width: 123px;
- text-align: center;
- margin-top: 10px;
+color: white;
+font-size: 15px;
+font-weight: bold;
+width: 123px;
+text-align: center;
+margin-top: 10px;
 }
 
 .logo-img {
@@ -514,7 +515,7 @@ nav {
 }
 
 .services {
-/*flex-direction: column;*/
+flex-direction: column;
 width: 100%;
 }
 
@@ -522,10 +523,10 @@ width: 100%;
 
 @media(max-width: 480px){
 .logo h1 {
- font-size: 2rem;
- width: auto;
- text-align: left;
- }
+font-size: 2rem;
+width: auto;
+text-align: left;
+}
     
 .logo-img img {
     height: 120px;
@@ -533,7 +534,7 @@ width: 100%;
 }
 
 .logo-img {
-    margin-left: 0.5rem;w
+    margin-left: 0.5rem;
 }
 
 nav {
@@ -541,12 +542,13 @@ nav {
 }
 
 .logo .img-text {
- color: white;
- font-size: 14px;
- font-weight: bold;
- width: 123px;
- text-align: center;
- margin-top: 10px;
+color: white;
+font-size: 14px;
+font-weight: bold;
+width: 123px;
+text-align: center;
+margin-top: 10px;
+}
 }
 
 .services {
@@ -556,8 +558,8 @@ width: 100%;
 
 @media(max-width: 320px){
 .logo h1 {
- font-size: 2rem;
- text-align: left;
- width: auto;
- }
+font-size: 2rem;
+text-align: left;
+width: auto;
+}
 }
