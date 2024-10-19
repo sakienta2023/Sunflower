@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Sunflower Laundry Soap</title>
+    <link rel="stylesheet" href="Css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Sunflower Laundry Soap</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-list">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-item">
+                <img src="Images/IMG-20240921-WA0026.jpg" alt="Sunflower Laundry Bar Soap">
+                <h3>Sunflower Laundry Bar Soap</h3>
+                <p>Made with 100% natural ingredients, this bar soap is gentle on fabrics yet tough on stains.</p>
+                <p class="price">Ugx 6500/-</p>
+                <button onclick="addToCart('Sunflower Laundry Bar Soap')">Add to Cart</button>
+            </div>
+            
+            <!-- Product 2 -->
+            <div class="product-item">
+                <img src="Images/IMG-20240907-WA0087.jpg" alt="Sunflower Liquid Detergent">
+                <h3>Sunflower Liquid Detergent</h3>
+                <p>A powerful liquid detergent, ideal for everyday washing and delicate fabrics.</p>
+                <p class="price">Ugx 10,000/-</p>
+                <button onclick="addToCart('Sunflower Liquid Detergent')">Add to Cart</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-item">
+                <img src="Images/IMG-20240907-WA0081.jpg" alt="Sunflower Fabric Softener">
+                <h3>Sunflower Fabric Softener</h3>
+                <p>Keep your clothes soft and fresh with our eco-friendly fabric softener.</p>
+                <p class="price">Ugx 21,000/-</p>
+                <button onclick="addToCart('Sunflower Fabric Softener')">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sunflower Laundry Soap. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js">
+        function addToCart(product) {
+    alert(product + " has been added to your cart!");
+}      
+    </script>
+</body>
+</html>
