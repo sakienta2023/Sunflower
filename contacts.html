@@ -1,6 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K2485YDYNR"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-K2485YDYNR');
+</script>  
+
+<!-- Google tag (gtag.js) --> 
+
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NH9BJQGL');</script>
+  <!-- End Google Tag Manager -->
+      
+      
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us - Sunflower Laundry Soap</title>
@@ -17,7 +39,13 @@
     referrerpolicy="no-referrer"
   />
   </head>
-  <body>
+  <body class="body-contact">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NH9BJQGL"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
     <header>
       <div class="logo">
         <h1>Sunflower Laundry Soap</h1>
@@ -47,8 +75,17 @@
     </header>
 
     <section class="contact-form">
+        
       <h2>Contact Us</h2>
-      <form id="contactForm" action="contact.php" method="POST">
+      
+      <form id="contactForm" action="https://formsubmit.co/8029f638890fa8288ff8a29753c0fd51" method="POST">
+          
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;"> 
+             
+         <input type="hidden" name="_subject" value="New Sunflower Soaps Form Submission!">
+          
+         <input type="hidden" name="_next" value="https://sunflower-soaps.lovestoblog.com/Thankyou.html">
+                
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required />
 
@@ -56,7 +93,7 @@
         <input type="email" id="email" name="email" required />
 
         <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
+        <textarea id="message" rows="15" name="message" required></textarea>
 
         <button type="submit">Send Message</button>
       </form>
